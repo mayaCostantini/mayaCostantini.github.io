@@ -1,0 +1,13 @@
+# Authors
+
+Maya Costantini:
+  name        : "Maya Costantini"
+  bio         : "Software Engineer at Microsoft"
+  avatar      : "/assets/images/profile_pic.png"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mayacostantini.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mayaCostantini"
