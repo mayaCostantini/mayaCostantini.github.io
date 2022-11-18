@@ -1,8 +1,6 @@
 ---
-title: "Articles by Year"
+title: "Articles"
 permalink: /articles/
-layout: posts
-author_profile: true
 ---
 
 | Title         | Website  | Authors |
