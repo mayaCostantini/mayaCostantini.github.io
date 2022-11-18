@@ -2,8 +2,8 @@ main:
   - title: "Home"
     url: /
   - title: "Articles"
-    url: /year-archive/
+    url: /articles/
   - title: "Talks"
-    url: /conf/
+    url: /talks/
   - title: "About"
     url: /about/
