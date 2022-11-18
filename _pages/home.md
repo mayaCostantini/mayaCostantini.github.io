@@ -1,6 +1,6 @@
 ---
-permalink: /home/
-title: "Welcome"
+permalink: /
+title: "Home"
 ---
 
 About me:
