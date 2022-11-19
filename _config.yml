@@ -80,7 +80,7 @@ author:
   location         : "Paris, France"
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/mayaCostantini"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -88,7 +88,15 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:maya.costantini@protonmail.com"
-
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://hachyderm.io/@mayacostantini"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/maya-costantini/"
+    - label: "Strava"
+      icon: "fab fa-fw fa-strava"
+      url: "https://www.strava.com/athletes/97223552"
 
 # Site Footer
 footer:
