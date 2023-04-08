@@ -97,6 +97,9 @@ author:
     - label: "Strava"
       icon: "fab fa-fw fa-strava"
       url: "https://www.strava.com/athletes/97223552"
+    - label: "Dev.to"
+      icon: "fab fa-dev"
+      url: "https://dev.to/mayacostantini"
 
 # Site Footer
 footer:
