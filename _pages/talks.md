@@ -3,10 +3,10 @@ title: "Talks"
 permalink: /talks/
 ---
 
-| Event         | Talk  | Lang |
+| Event         | Talk  | Date |
 |---------------|:------:|------|
-| [PyCon FR 2023](https://www.pycon.fr/2023/en/index.html) | [Introduction to Sigstore: cryptographic signatures made easier](https://www.pycon.fr/2023/en/talks/30m.html#introduction-to-sigstore-crypt) | EN
-| Red Hat Tech Exchange North America 2023 | DevSecOps: All great artists sign their work | EN |
-| [Red Hat Summit 2022](https://www.redhat.com/en/summit) | [Securing Python applications with Thoth recommendations](https://events.experiences.redhat.com/widget/redhat/sum22/SessionCatalog22/session/16396653159380015xT4) | EN |
-| [PyCon US 2022](https://pycon.org/) | [How to make your Python Jupyter Notebook Standalone and Reproducible to allow others to replicate your experiments](https://www.youtube.com/watch?v=xJddVw_ALgY&ab_channel=PyConUS) | EN |
-| [Red Hat Czech Talks](https://www.youtube.com/c/RedHatDevelopers/featured) | [Discover Project Thoth](https://www.youtube.com/watch?v=2CFkHlSewKY&t=1s) | EN |
+| [PyCon FR 2023](https://www.pycon.fr/2023/en/index.html) | [Introduction to Sigstore: cryptographic signatures made easier](https://www.pycon.fr/2023/en/talks/30m.html#introduction-to-sigstore-crypt) | Feb. 2023
+| Red Hat Tech Exchange North America 2023 | DevSecOps: All great artists sign their work | Feb. 2023 |
+| [Red Hat Summit 2022](https://www.redhat.com/en/summit) | [Securing Python applications with Thoth recommendations](https://events.experiences.redhat.com/widget/redhat/sum22/SessionCatalog22/session/16396653159380015xT4) | May 2022 |
+| [PyCon US 2022](https://pycon.org/) | [How to make your Python Jupyter Notebook Standalone and Reproducible to allow others to replicate your experiments](https://www.youtube.com/watch?v=xJddVw_ALgY&ab_channel=PyConUS) | May 2022 |
+| [Red Hat Czech Talks](https://www.youtube.com/c/RedHatDevelopers/featured) | [Discover Project Thoth](https://www.youtube.com/watch?v=2CFkHlSewKY&t=1s) | Jan. 2022 |
