@@ -5,6 +5,9 @@ permalink: /talks/
 
 | Event         | Talk  | Date | Co-speakers
 |---------------|:------:|------|-----------|
+| [Pass the SALT](https://www.pass-the-salt.org/) | Introduction to Sigstore: cryptographic signatures made easier (upcoming) | Jul. 2023 |
+| [DevConf.CZ](https://www.devconf.info/cz/) | [An introduction to Sigstore for Pythonistas (upcoming)](https://devconfcz2023.sched.com/event/1MYhQ/an-introduction-to-sigstore-for-pythonistas) | Jun. 2023 |
+| [DevConf.CZ](https://www.devconf.info/cz/) | [Securing Python projects supply chain (upcoming)](https://devconfcz2023.sched.com/event/1MYdz/securing-python-projects-supply-chain) | Jun. 2023 | [Fridolín Pokorný](https://fridex.github.io/) |
 | [PyCon FR 2023](https://www.pycon.fr/2023/en/index.html) | [Introduction to Sigstore: cryptographic signatures made easier](https://www.pycon.fr/2023/en/talks/30m.html#introduction-to-sigstore-crypt) | Feb. 2023 |
 | Red Hat Tech Exchange North America 2023 | DevSecOps: All great artists sign their work | Feb. 2023 | [Moyo Oyegunle](https://www.linkedin.com/in/moyo-oyegunle-51ba5017), [Teg-Wende Regis Nare](https://www.linkedin.com/in/teg-wendenare) |
 | [Red Hat Summit 2022](https://www.redhat.com/en/summit) | [Securing Python applications with Thoth recommendations](https://events.experiences.redhat.com/widget/redhat/sum22/SessionCatalog22/session/16396653159380015xT4) | May 2022 | [Fridolín Pokorný](https://fridex.github.io/) |
