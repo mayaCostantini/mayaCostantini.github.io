@@ -5,6 +5,7 @@ permalink: /talks/
 
 | Event         | Talk  | Date | Co-speakers
 |---------------|:------:|------|-----------|
+| [NoLimitSecu](https://www.nolimitsecu.fr/) | [Episode #422 consacré à Sigstore (in French)](https://www.nolimitsecu.fr/sigstore/) | Jul. 2023 |
 | [Pass the SALT](https://www.pass-the-salt.org/) | [Introduction to Sigstore: cryptographic signatures made easier](https://cfp.pass-the-salt.org/pts2023/talk/9XNUZL/) | Jul. 2023 |
 | [DevConf.CZ](https://www.devconf.info/cz/) | [An introduction to Sigstore for Pythonistas](https://youtu.be/3wgdyGB5KnI) | Jun. 2023 |
 | [DevConf.CZ](https://www.devconf.info/cz/) | [Securing Python projects supply chain](https://youtu.be/jXoKPlVLQCc) | Jun. 2023 | [Fridolín Pokorný](https://fridex.github.io/) |
