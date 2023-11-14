@@ -5,6 +5,7 @@ permalink: /talks/
 
 | Event         | Talk  | Date | Co-speakers
 |---------------|:------:|------|-----------|
+| [OSSIR](https://www.ossir.org/) | [Sigstore: rendre les signatures digitales accessibles à tous (in French)](https://www.ossir.org/reunion/reunion-du-14-novembre-2023/) | Nov. 2023 |
 | [NoLimitSecu](https://www.nolimitsecu.fr/) | [Episode #422 consacré à Sigstore (in French)](https://www.nolimitsecu.fr/sigstore/) | Jul. 2023 |
 | [Pass the SALT](https://www.pass-the-salt.org/) | [Introduction to Sigstore: cryptographic signatures made easier](https://cfp.pass-the-salt.org/pts2023/talk/9XNUZL/) | Jul. 2023 |
 | [DevConf.CZ](https://www.devconf.info/cz/) | [An introduction to Sigstore for Pythonistas](https://youtu.be/3wgdyGB5KnI) | Jun. 2023 |
