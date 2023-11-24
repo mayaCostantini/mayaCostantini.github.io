@@ -3,7 +3,7 @@
 Maya Costantini:
   name        : "Maya Costantini"
   bio         : "Software Engineer at Red Hat"
-  avatar      : "/assets/images/profile_pic.jpeg"
+  avatar      : "/assets/images/profile_pic.png"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
