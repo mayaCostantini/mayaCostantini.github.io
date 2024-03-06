@@ -100,6 +100,9 @@ author:
     - label: "Dev.to"
       icon: "fab fa-dev"
       url: "https://dev.to/mayacostantini"
+    - label: "Goodreads"
+      icon: "fab fa-goodreads"
+      url: "https://www.goodreads.com/user/show/123739177-maya"
 
 # Site Footer
 footer:
