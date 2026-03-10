@@ -1,0 +1,92 @@
+// Contact Section
+
+.section-contact {
+  background-color: $color-section-alt;
+  text-align: center;
+}
+
+.blog-feature {
+  max-width: 600px;
+  margin: 0 auto $space-sm;
+  padding: $space-sm;
+  background-color: $color-background;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    font-family: $font-primary;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: $color-primary;
+    margin-bottom: $space-xs;
+
+    i {
+      color: $color-secondary;
+      margin-right: $space-xs;
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: $color-text-light;
+    margin-bottom: $space-sm;
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $space-sm;
+  margin: $space-sm 0;
+
+  @media (max-width: $tablet) {
+    gap: $space-xs;
+  }
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-xs;
+  padding: $space-sm;
+  min-width: 100px;
+  background-color: $color-background;
+  border-radius: 8px;
+  border: 2px solid $color-border;
+  transition: $transition-smooth;
+  text-decoration: none;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $color-secondary;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+
+    i {
+      color: $color-secondary;
+    }
+  }
+
+  i {
+    font-size: 1.5rem;
+    color: $color-primary;
+    transition: $transition-smooth;
+  }
+
+  span {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $color-primary;
+  }
+}
+
+.resume-link {
+  margin-top: $space-sm;
+  font-size: 1.125rem;
+
+  a {
+    font-weight: 600;
+  }
+}

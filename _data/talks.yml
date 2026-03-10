@@ -1,0 +1,98 @@
+- event: "Microsoft Teams Conf'25"
+  title: "Events API: squeezing premium storage to the maximum"
+  date: "Apr. 2025"
+  co_speakers:
+    - name: "Matej Hron"
+      url: "https://cz.linkedin.com/in/matejhron"
+    - name: "Damian Horna"
+      url: "https://www.linkedin.com/in/damianhorna/"
+
+- event: "Secure AI Summit (CloudNative SecurityCon)"
+  event_url: "https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/"
+  title: "Elevate Cloud Threat Hunting with AI"
+  title_url: "https://secureaisummit2024.sched.com/event/1dBWF/elevate-cloud-threat-hunting-with-ai-kenneth-peeples-maya-costantini-red-hat"
+  date: "Jun. 2024"
+  co_speakers:
+    - name: "Kenneth Peeples"
+      url: "https://www.linkedin.com/in/kennethpeeples/"
+
+- event: "KCD Czech & Slovak"
+  event_url: "https://community.cncf.io/events/details/cncf-kcd-czech-slovak-presents-kcd-czech-slovak-2024/"
+  title: "Bootstrap and maintain trust in the cloud with Keylime"
+  title_url: "https://www.youtube.com/watch?v=8FSaYcJgQXo&t=15725s&pp=ygVFa2NkIGN6ZWNoIDIwMjQgQm9vdHN0cmFwIGFuZCBtYWludGFpbiB0cnVzdCBpbiB0aGUgY2xvdWQgd2l0aCBLZXlsaW1l"
+  date: "Jun. 2024"
+  co_speakers:
+    - name: "Anderson Sasaki"
+      url: "https://de.linkedin.com/in/anderson-toshiyuki-sasaki-7519908"
+
+- event: "OSSIR"
+  event_url: "https://www.ossir.org/"
+  title: "Sigstore: rendre les signatures digitales accessibles à tous (in French)"
+  title_url: "https://youtu.be/cOEwalxCFhw"
+  date: "Nov. 2023"
+
+- event: "NoLimitSecu"
+  event_url: "https://www.nolimitsecu.fr/"
+  title: "Episode #422 consacré à Sigstore (in French)"
+  title_url: "https://www.nolimitsecu.fr/sigstore/"
+  date: "Jul. 2023"
+
+- event: "Pass the SALT"
+  event_url: "https://www.pass-the-salt.org/"
+  title: "Introduction to Sigstore: cryptographic signatures made easier"
+  title_url: "https://cfp.pass-the-salt.org/pts2023/talk/9XNUZL/"
+  date: "Jul. 2023"
+
+- event: "DevConf.CZ"
+  event_url: "https://www.devconf.info/cz/"
+  title: "An introduction to Sigstore for Pythonistas"
+  title_url: "https://youtu.be/3wgdyGB5KnI"
+  date: "Jun. 2023"
+
+- event: "DevConf.CZ"
+  event_url: "https://www.devconf.info/cz/"
+  title: "Securing Python projects Supply Chain"
+  title_url: "https://youtu.be/jXoKPlVLQCc?si=Sf4gR64pvUcekd5I"
+  date: "Jun. 2023"
+  co_speakers:
+    - name: "Fridolín Pokorný"
+      url: "https://fridex.github.io/"
+
+- event: "PyCon FR 2023"
+  event_url: "https://www.pycon.fr/2023/en/index.html"
+  title: "Introduction to Sigstore: cryptographic signatures made easier"
+  title_url: "https://www.pycon.fr/2023/en/talks/30m.html#introduction-to-sigstore-crypt"
+  date: "Feb. 2023"
+
+- event: "Red Hat Tech Exchange North America 2023"
+  title: "DevSecOps: All great artists sign their work"
+  date: "Feb. 2023"
+  co_speakers:
+    - name: "Moyo Oyegunle"
+      url: "https://www.linkedin.com/in/moyo-oyegunle-51ba5017"
+    - name: "Teg-Wende Regis Nare"
+      url: "https://www.linkedin.com/in/teg-wendenare"
+
+- event: "Red Hat Summit 2022"
+  event_url: "https://www.redhat.com/en/summit"
+  title: "Securing Python applications with Thoth recommendations"
+  title_url: "https://events.experiences.redhat.com/widget/redhat/sum22/SessionCatalog22/session/16396653159380015xT4"
+  date: "May 2022"
+  co_speakers:
+    - name: "Fridolín Pokorný"
+      url: "https://fridex.github.io/"
+
+- event: "PyCon US 2022"
+  event_url: "https://pycon.org/"
+  title: "How to make your Python Jupyter Notebook Standalone and Reproducible to allow others to replicate your experiments"
+  title_url: "https://www.youtube.com/watch?v=xJddVw_ALgY&ab_channel=PyConUS"
+  date: "May 2022"
+
+- event: "Red Hat Czech Talks"
+  event_url: "https://www.youtube.com/c/RedHatDevelopers/featured"
+  title: "Discover Project Thoth"
+  title_url: "https://www.youtube.com/watch?v=2CFkHlSewKY&t=1s"
+  date: "Jan. 2022"
+  co_speakers:
+    - name: "Fridolín Pokorný"
+      url: "https://fridex.github.io/"

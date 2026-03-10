@@ -1,0 +1,57 @@
+// CSS Reset & Base Styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $nav-height;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: $base-font-size;
+  line-height: $line-height;
+  color: $color-primary;
+  background-color: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Selection color
+::selection {
+  background-color: $color-secondary;
+  color: $color-background;
+}
+
+// Focus styles for accessibility
+:focus {
+  outline: 2px solid $color-secondary;
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Container
+.container {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 0 $space-md;
+
+  @media (max-width: $tablet) {
+    padding: 0 $space-sm;
+  }
+}

@@ -1,0 +1,17 @@
+- platform: "Blog"
+  icon: "fas fa-microchip"
+  url: "https://8bitsizedtech.com/"
+  label: "Bite Sized Tech"
+  featured: true
+
+- platform: "GitHub"
+  icon: "fab fa-github"
+  url: "https://github.com/mayaCostantini"
+
+- platform: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:maya.costantini@protonmail.com"
+
+- platform: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/maya-costantini/"

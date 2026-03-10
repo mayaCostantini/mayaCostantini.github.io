@@ -1,0 +1,22 @@
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" loading="lazy">
+      </div>
+
+      <div class="hero-text">
+        <h1>{{ site.author.name }}</h1>
+        <p class="subtitle">Software Engineer at Microsoft</p>
+
+        <p class="bio">{{ site.author.bio }}</p>
+
+        <div class="hero-cta">
+          <a href="{{ site.blog }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-microchip"></i> Read My Blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

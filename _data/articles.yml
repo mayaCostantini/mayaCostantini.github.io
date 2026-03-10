@@ -1,0 +1,24 @@
+- title: "Implement digital signatures to verify software supply chain integrity"
+  url: "https://www.redhat.com/architect/digital-signatures-software-supply-chain"
+  publication: "Red Hat Enable Architect"
+  publication_url: "https://www.redhat.com/architect/"
+  co_authors:
+    - name: "Moyo Oyegunle"
+      url: "https://www.linkedin.com/in/moyo-oyegunle-51ba5017"
+    - name: "Teg-Wende Regis Nare"
+      url: "https://www.linkedin.com/in/teg-wendenare"
+
+- title: "Google's Agent 2 Agent (A2A) protocol explained"
+  url: "https://8bitsizedtech.com/article/googles-agent2agent-protocol-explained"
+  publication: "Bite Sized Tech"
+  publication_url: "https://8bitsizedtech.com/"
+
+- title: "Why Are Exceptions Expensive?"
+  url: "https://8bitsizedtech.com/article/why-are-exceptions-expensive"
+  publication: "Bite Sized Tech"
+  publication_url: "https://8bitsizedtech.com/"
+
+- title: "Deploying Sigstore with Keycloak"
+  url: "https://8bitsizedtech.com/article/deploying-sigstore-with-keycloak"
+  publication: "Bite Sized Tech"
+  publication_url: "https://8bitsizedtech.com/"
