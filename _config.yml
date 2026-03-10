@@ -22,7 +22,7 @@ subtitle                 : "Backend Engineer | Speaker | Writer"
 name                     : "Maya Costantini" # the name in the footer
 description              : "Backend engineer with an academic background in AI, owning critical-path Microsoft Teams services, with a strong focus on reliability, operational excellence, and pragmatic architecture decisions. Technical speaker and writer on software architecture and security."
 blog                     : "https://8bitsizedtech.com/"
-blog_name                : "Bite Sized Tech"
+blog_name                : "Byte Sized Tech"
 url                      : "https://mayacostantini.com"
 baseurl                  : "/"
 repository               : mayaCostantini/mayaCostantini.github.io
