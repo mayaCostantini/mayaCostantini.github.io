@@ -1,7 +1,7 @@
 - platform: "Blog"
   icon: "fas fa-microchip"
   url: "https://8bitsizedtech.com/"
-  label: "Bite Sized Tech"
+  label: "Byte Sized Tech"
   featured: true
 
 - platform: "GitHub"
