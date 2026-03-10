@@ -1,0 +1,88 @@
+// Talks Section
+
+.section-talks {
+  background-color: $color-background;
+}
+
+.talks-list {
+  margin-top: $space-sm;
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+}
+
+.talk-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: $space-sm;
+  padding: $space-sm;
+  background-color: $color-section-alt;
+  border-radius: 8px;
+  border-left: 4px solid $color-secondary;
+  transition: $transition-smooth;
+
+  &:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  @media (max-width: $tablet) {
+    grid-template-columns: 1fr;
+    gap: $space-sm;
+  }
+}
+
+.talk-date {
+  font-weight: 600;
+  color: $color-text-light;
+  font-size: 0.95rem;
+
+  @media (max-width: $tablet) {
+    font-size: 0.875rem;
+  }
+}
+
+.talk-content {
+  h3 {
+    font-family: $font-primary;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+
+    a {
+      color: $color-primary;
+      display: inline-flex;
+      align-items: flex-start;
+      gap: $space-xs;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-secondary;
+        text-decoration: underline;
+      }
+
+      i {
+        font-size: 0.875rem;
+        flex-shrink: 0;
+        margin-top: 0.25rem;
+      }
+    }
+  }
+
+  .talk-event {
+    font-weight: 500;
+    margin-bottom: $space-xs;
+
+    a {
+      color: $color-primary;
+
+      &:hover {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  .co-speakers {
+    margin-top: $space-xs;
+  }
+}

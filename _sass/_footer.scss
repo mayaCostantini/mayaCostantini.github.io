@@ -1,0 +1,22 @@
+// Footer
+
+.footer {
+  background-color: $color-primary;
+  color: $color-background;
+  padding: $space-sm 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  a {
+    color: $color-background;
+    text-decoration: underline;
+
+    &:hover {
+      color: lighten($color-background, 80%);
+    }
+  }
+}

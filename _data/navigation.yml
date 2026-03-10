@@ -1,9 +1,12 @@
 main:
   - title: "Home"
-    url: /
+    url: "#hero"
   - title: "Articles"
-    url: /articles/
+    url: "#articles"
   - title: "Talks"
-    url: /talks/
-  - title: "About"
-    url: /about/
+    url: "#talks"
+  - title: "Blog"
+    url: "https://8bitsizedtech.com/"
+    external: true
+  - title: "Contact"
+    url: "#contact"

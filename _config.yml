@@ -14,16 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "neon" # "dark", "aqua", "contrast", "dirt", "neon", "mint", "plum", "sunrise", "air"
-
 # Site Settings
 locale                   : "en-US"
 title                    : Maya Costantini
 title_separator          : "-"
-subtitle                 : "Software Engineer"
+subtitle                 : "Backend Engineer | Speaker | Writer"
 name                     : "Maya Costantini" # the name in the footer
-description              : "This is my personal page"
+description              : "Backend engineer with an academic background in AI, owning critical-path Microsoft Teams services, with a strong focus on reliability, operational excellence, and pragmatic architecture decisions. Technical speaker and writer on software architecture and security."
+blog                     : "https://8bitsizedtech.com/"
+blog_name                : "Bite Sized Tech"
 url                      : "https://mayacostantini.com"
 baseurl                  : "/"
 repository               : mayaCostantini/mayaCostantini.github.io
@@ -75,7 +74,7 @@ analytics:
 author:
   name             : "Maya Costantini"
   avatar           : "/assets/images/profile_pic.png"
-  bio              : "Software Engineer at Microsoft"
+  bio              : "Backend engineer with an academic background in AI, owning critical-path Microsoft Teams services, with a strong focus on reliability, operational excellence, and pragmatic architecture decisions. Technical speaker and writer on software architecture and security."
   location         : "Prague, Czech Republic"
   links:
     - label: "GitHub"
@@ -182,19 +181,13 @@ timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_z
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-seo-tag
 
 
 # Archives

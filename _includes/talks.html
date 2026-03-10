@@ -1,0 +1,48 @@
+<section id="talks" class="section section-talks">
+  <div class="container">
+    <h2 class="section-heading">Conference Talks & Presentations</h2>
+
+    <div class="talks-list">
+      {% for talk in site.data.talks %}
+        <div class="talk-item">
+          <div class="talk-date">{{ talk.date }}</div>
+
+          <div class="talk-content">
+            <h3>
+              {% if talk.title_url %}
+                <a href="{{ talk.title_url }}" target="_blank" rel="noopener noreferrer">
+                  {{ talk.title }}
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              {% elsif talk.event_url %}
+                <a href="{{ talk.event_url }}" target="_blank" rel="noopener noreferrer">
+                  {{ talk.title }}
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              {% else %}
+                {{ talk.title }}
+              {% endif %}
+            </h3>
+
+            <p class="talk-event">
+              {% if talk.event_url %}
+                <a href="{{ talk.event_url }}" target="_blank" rel="noopener noreferrer">{{ talk.event }}</a>
+              {% else %}
+                {{ talk.event }}
+              {% endif %}
+            </p>
+
+            {% if talk.co_speakers %}
+              <p class="co-speakers">
+                With:
+                {% for speaker in talk.co_speakers %}
+                  <a href="{{ speaker.url }}" target="_blank" rel="noopener noreferrer">{{ speaker.name }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+// General Section Styles
+
+.section {
+  padding: $space-md 0;
+  scroll-margin-top: $nav-height;
+
+  &:nth-child(even) {
+    background-color: $color-section-alt;
+  }
+
+  &:nth-child(odd) {
+    background-color: $color-background;
+  }
+
+  @media (max-width: $tablet) {
+    padding: $space-sm 0;
+  }
+}
+
+// Section metadata styles
+.article-meta,
+.talk-event,
+.co-authors,
+.co-speakers {
+  font-size: 0.95rem;
+  color: $color-text-light;
+  margin-bottom: 0.25rem;
+
+  a {
+    color: $color-text-light;
+    font-weight: 500;
+
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+}

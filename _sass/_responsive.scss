@@ -1,0 +1,60 @@
+// Responsive Design - Mobile First
+
+// Mobile devices (320px - 767px)
+// Base styles are mobile-first, so no media query needed
+
+// Tablets (768px - 1023px)
+@media (min-width: $tablet) {
+  .container {
+    padding: 0 $space-md;
+  }
+
+  .hero {
+    padding: $space-xl 0;
+  }
+
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Desktop (1024px - 1439px)
+@media (min-width: $desktop) {
+  body {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: $space-xl 0;
+  }
+
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Wide screens (1440px+)
+@media (min-width: $wide) {
+  .hero-text .bio {
+    font-size: 1.25rem;
+  }
+}
+
+// Print styles
+@media print {
+  .navbar,
+  .nav-toggle,
+  .footer {
+    display: none;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

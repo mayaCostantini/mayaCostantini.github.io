@@ -1,0 +1,136 @@
+// Navigation Bar
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $nav-height;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 1000;
+  transition: $transition-smooth;
+
+  &.scrolled {
+    background-color: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nav-brand {
+  a {
+    font-family: $font-headings;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-secondary;
+      text-decoration: none;
+    }
+  }
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: $space-md;
+  align-items: center;
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    font-weight: 500;
+    color: $color-primary;
+    text-decoration: none;
+    padding: $space-xs $space-sm;
+    border-radius: 4px;
+    transition: $transition-smooth;
+
+    &:hover,
+    &.active {
+      color: $color-secondary;
+      background-color: rgba($color-secondary, 0.1);
+      text-decoration: none;
+    }
+  }
+}
+
+// Mobile hamburger toggle
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: $space-xs;
+
+  span {
+    width: 25px;
+    height: 3px;
+    background-color: $color-primary;
+    border-radius: 2px;
+    transition: $transition-smooth;
+  }
+
+  &.active {
+    span:nth-child(1) {
+      transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+    }
+
+    span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+  }
+}
+
+// Mobile responsive
+@media (max-width: $tablet) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: $nav-height;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: $color-background;
+    padding: $space-md;
+    gap: $space-sm;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: $transition-smooth;
+
+    &.active {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: $space-sm;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+// Typography System
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-headings;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: $space-xs;
+  color: $color-primary;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: $space-xs;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: $space-xs;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: $space-sm;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Links
+a {
+  color: $color-secondary;
+  text-decoration: none;
+  transition: $transition-smooth;
+
+  &:hover {
+    color: darken($color-secondary, 10%);
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: 2px solid $color-secondary;
+    outline-offset: 2px;
+  }
+}
+
+// Section headings
+.section-heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: $space-sm;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: $color-secondary;
+    margin: $space-xs auto 0;
+  }
+}
+
+// Subtitle
+.subtitle {
+  font-family: $font-primary;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $color-text-light;
+  margin-bottom: $space-md;
+}
+
+// Button styles
+.btn {
+  display: inline-block;
+  padding: $space-sm $space-md;
+  font-family: $font-primary;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: $transition-smooth;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+  }
+
+  i {
+    margin-right: $space-xs;
+  }
+}
+
+.btn-primary {
+  background-color: $color-secondary;
+  color: $color-background;
+
+  &:hover {
+    background-color: darken($color-secondary, 10%);
+    color: $color-background;
+  }
+}
+
+.btn-secondary {
+  background-color: $color-primary;
+  color: $color-background;
+
+  &:hover {
+    background-color: lighten($color-primary, 10%);
+    color: $color-background;
+  }
+}

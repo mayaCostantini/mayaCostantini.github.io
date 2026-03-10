@@ -1,0 +1,31 @@
+<section id="articles" class="section section-articles">
+  <div class="container">
+    <h2 class="section-heading">Technical Writing</h2>
+
+    <div class="articles-grid">
+      {% for article in site.data.articles %}
+        <article class="article-card">
+          <h3>
+            <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">
+              {{ article.title }}
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </h3>
+
+          <p class="article-meta">
+            Published in <a href="{{ article.publication_url }}" target="_blank" rel="noopener noreferrer">{{ article.publication }}</a>
+          </p>
+
+          {% if article.co_authors %}
+            <p class="co-authors">
+              Co-authored with:
+              {% for author in article.co_authors %}
+                <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+// Articles Section
+
+.section-articles {
+  background-color: $color-section-alt;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $space-sm;
+  margin-top: $space-sm;
+
+  @media (max-width: $tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.article-card {
+  background-color: $color-background;
+  padding: $space-sm;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: $transition-smooth;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  h3 {
+    font-family: $font-primary;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: $space-xs;
+
+    a {
+      color: $color-primary;
+      display: flex;
+      align-items: flex-start;
+      gap: $space-xs;
+
+      &:hover {
+        color: $color-secondary;
+      }
+
+      i {
+        font-size: 0.875rem;
+        flex-shrink: 0;
+        margin-top: 0.25rem;
+      }
+    }
+  }
+
+  .article-meta {
+    margin-bottom: $space-xs;
+  }
+
+  .co-authors {
+    margin-top: auto;
+    padding-top: $space-xs;
+    border-top: 1px solid $color-border;
+  }
+}
